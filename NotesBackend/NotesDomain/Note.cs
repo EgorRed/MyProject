@@ -1,9 +1,8 @@
 ﻿using System;
-using Microsoft.EntityFrameworkCore;
 
 namespace NotesDomain
 {
-    class Note
+    public class Note
     {
         public Guid UserId { get; set; }
         public Guid Id { get; set; }
