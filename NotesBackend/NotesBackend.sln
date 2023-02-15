@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.33214.272
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{3C9222C7-F298-480A-B22A-9AA42EC73D75}"
 EndProject
@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesDomain", "NotesDomain\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesApplication", "NotesApplication\NotesApplication.csproj", "{1412F344-67EB-4963-BB6E-3D5716E0D7B8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesPersistems", "NotesPersistems\NotesPersistems.csproj", "{7F939924-2800-4DF2-BF1B-1BBEB1733C18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesPersistence", "NotesPersistems\NotesPersistence.csproj", "{7F939924-2800-4DF2-BF1B-1BBEB1733C18}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NotesWebAPI", "NotesWebAPI\NotesWebAPI.csproj", "{F3AC764A-3AB7-4906-A2E0-A627DB4F06AA}"
 EndProject

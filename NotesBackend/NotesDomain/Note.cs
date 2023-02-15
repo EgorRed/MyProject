@@ -10,6 +10,5 @@ namespace NotesDomain
         public string Details { get; set; }
         public DateTime CreationDate { get; set; }
         public DateTime? EditTime { get; set; }
-
     }
 }

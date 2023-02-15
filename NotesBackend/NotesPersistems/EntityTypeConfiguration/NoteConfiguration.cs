@@ -1,15 +1,16 @@
-﻿using System;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using NotesDomain;
 
-namespace NotesPersistems.EntityTypeConfiguration
+namespace NotesPersistence.EntityTypeConfiguration
 {
     class NoteConfiguration : IEntityTypeConfiguration<Note>
     {
         public void Configure(EntityTypeBuilder<Note> builder)
         {
-
+            builder.HasKey(note => note.Id);
+            builder.HasIndex(note => note.Id).IsUnique();
+            builder.Property(note => note.Title).HasMaxLength(250);
         }
     }
 }
