@@ -5,7 +5,7 @@ using MediatR;
 using NotesApplication.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using NotesDomain;
-
+using NotesApplication.Common.Exceptions;
 
 namespace NotesApplication.Notes.Commands.UpdateNote
 {
