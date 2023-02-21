@@ -31,7 +31,7 @@ namespace NotesApplication.Notes.Commands.UpdateNote
 
             entity.Details = request.Details;
             entity.Title = request.Title;
-            entity.EditDate = DateTime.Now;
+            entity.EditTime = DateTime.Now;
 
             await _dbContext.SaveChangesAsync(cancellationToken);
 
