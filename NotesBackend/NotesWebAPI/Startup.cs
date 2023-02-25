@@ -32,6 +32,8 @@ namespace NotesWebAPI
 
             services.AddApplication();
             services.AddPersistens(Configuration);
+            services.AddControllers();
+
             services.AddCors(options =>
             {
                 options.AddPolicy("AllowAll", policy =>
