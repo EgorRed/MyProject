@@ -7,7 +7,7 @@ namespace NotesPersistence
 {
     public static class DependencyInjection
     {
-        public static IServiceCollection AddPersistens(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddPersistence(this IServiceCollection services, IConfiguration configuration)
         {
             var connectionString = configuration["DbConnection"];
             services.AddDbContext<NotesDbContext>(options =>
