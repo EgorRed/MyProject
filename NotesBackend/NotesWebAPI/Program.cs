@@ -6,8 +6,7 @@ using NotesApplication;
 using NotesApplication.Common.Mapping;
 using NotesApplication.Interfaces;
 using NotesPersistence;
-
-
+using NotesWebAPI.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -55,6 +54,7 @@ using (IServiceScope scope = builder.Services.BuildServiceProvider().CreateScope
     }
 }
 
+app.UseCustomExeptionHandler();
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.UseCors("AllowAll");
